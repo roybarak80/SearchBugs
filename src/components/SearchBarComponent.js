@@ -38,7 +38,7 @@ export default class SearchBar extends Component {
                     <div className="col-md-12 ">
                         <div className="row  align-items-center">
                             <div className="col-md-2 pr-0">
-                                <label >Tester Name</label>
+                                <span >Tester Name</span>
                             </div>
                             <div className="col-md-10">
                                 <input
