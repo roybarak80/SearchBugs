@@ -37,10 +37,10 @@ export default class SearchBar extends Component {
                 <div className="row mb-4">
                     <div className="col-md-12 ">
                         <div className="row  align-items-center">
-                            <div className="col-md-2 pr-0">
+                            <div className="col-md-3 pr-0">
                                 <span >Tester's Name</span>
                             </div>
-                            <div className="col-md-10">
+                            <div className="col-md-9 pl-0">
                                 <input
                                     type="text"
                                     className={'form-control' + (!this.state.isValidInput ? ' invalidInput': '')}
