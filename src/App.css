@@ -1,0 +1,25 @@
+body {
+  background: #117a8b;
+}
+.app-container {
+  
+  max-width: 50%;
+  margin: 60px auto;
+
+}
+
+.jumbotron {
+  padding: 2rem 2rem;
+}
+
+h3 {
+  color: #538cb5;
+}
+input {
+  margin: 20px 0;
+}
+
+.invalidInput{
+  color:red!important;
+}
+
