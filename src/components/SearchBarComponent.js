@@ -43,9 +43,7 @@ export default class SearchBar extends Component {
                             <div className="col-md-10">
                                 <input
                                     type="text"
-                                    className={'form-control' + (!this.state.isValidInput
-                                    ? ' invalidInput'
-                                    : '')}
+                                    className={'form-control' + (!this.state.isValidInput ? ' invalidInput': '')}
                                     value={this.state.inputValue}
                                     onChange={evt => this.updateInputValue(evt)}
                                     placeholder="Enter the tester name"/>
