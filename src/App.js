@@ -5,10 +5,8 @@ import TestersList from './components/TestersListComponent';
 import './App.css';
 
 function getData(tester) {
-    if(tester.toLowerCase().toString() === 'all'){
-        tester = '';
-    }
-    return axios.get('http://localhost:3004/testers/' + tester );
+   
+    return axios.get('https://test-api.techsee.me/api/ex/' + tester );
 }
 
 class App extends Component {
