@@ -23,3 +23,28 @@ input {
   color:red!important;
 }
 
+.fa-bug{
+  color:silver;
+}
+
+.jumbotron{
+  -webkit-box-shadow: 8px 9px 39px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 9px 39px -19px rgba(0,0,0,0.75);
+box-shadow: 8px 9px 39px -19px rgba(0,0,0,0.75);
+}
+
+.tbody {
+  height: 40vh !important;
+  overflow-y: auto;	
+}
+   
+.my-tbody {
+  min-height:40vh;
+  display:block;
+  overflow-y: auto;	
+  width:100%;
+}
+
+.search-field-row .flex-1 {
+  flex:1;
+}

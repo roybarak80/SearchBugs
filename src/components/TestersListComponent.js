@@ -36,7 +36,12 @@ export default class TestersList extends Component {
 
         return (
             <span className="ml-1" onClick={e => this.onSort(e, 'firstName')}>
+                {!!this.state.sortDirection && 
                 <i className="fas fa-sort-amount-up"></i>
+            }
+            {!this.state.sortDirection && 
+                <i className="fas fa-sort-amount-down"></i>
+            }
             </span>
         );
     }
@@ -46,7 +51,12 @@ export default class TestersList extends Component {
        
         return (
             <span className="ml-1" onClick={e => this.onSort(e, 'country')}>
+            {!!this.state.sortDirection && 
                 <i className="fas fa-sort-amount-up"></i>
+            }
+            {!this.state.sortDirection && 
+                <i className="fas fa-sort-amount-down"></i>
+            }
             </span>
         );
     }

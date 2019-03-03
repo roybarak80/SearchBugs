@@ -37,10 +37,12 @@ export default class SearchBar extends Component {
                 <div className="row mb-4">
                     <div className="col-md-12 ">
                         <div className="row  align-items-center">
-                            <div className="col-md-3 pr-0">
+                        <div className="col-md-12 d-flex align-items-center search-field-row" >
+                               
+                            <div className="mr-2">
                                 <span >Tester's Name</span>
                             </div>
-                            <div className="col-md-9 pl-0">
+                            <div className="flex-1">
                                 <input
                                     type="text"
                                     className={'form-control' + (!this.state.isValidInput ? ' invalidInput': '')}
@@ -48,9 +50,10 @@ export default class SearchBar extends Component {
                                     onChange={evt => this.updateInputValue(evt)}
                                     placeholder="Enter the tester name"/>
                             </div>
+                            </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-12 d-flex align-content-end">
+                            <div className="col-md-12 d-flex justify-content-end">
 
                                 <button
                                     disabled={!this.state.isValidInput}
